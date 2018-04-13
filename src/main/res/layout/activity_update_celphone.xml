@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/size_20"
+    tools:context="mx.edu.utng.dloza.crudcelphone.UpdateCelphoneActivity">
+
+
+    <TextView
+        android:id="@+id/title_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_celphone"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/celphone_mark_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/mark" />
+
+    <EditText
+        android:id="@+id/celphone_model_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/model" />
+
+    <EditText
+        android:id="@+id/celphone_color_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/color" />
+
+    <EditText
+        android:id="@+id/celphone_memory_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/memory" />
+
+    <EditText
+        android:id="@+id/celphone_cost_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/cost" />
+
+    <EditText
+        android:id="@+id/celphone_company_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/company" />
+
+
+    <Button
+        android:id="@+id/update_celphone_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_celphone"/>
+
+</LinearLayout>

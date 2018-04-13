@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CrudCelphone</string>
+    <string name="add_celphone">Agregar Celulares</string>
+    <string name="mark">Mark</string>
+    <string name="model">Model</string>
+    <string name="color">Color</string>
+    <string name="memory">Memory</string>
+    <string name="cost">Cost</string>
+    <string name="company">Company</string>
+    <string name="add_celphon">Add Celphone</string>
+    <string name="update_celphone">Update Celphone</string>
+</resources>

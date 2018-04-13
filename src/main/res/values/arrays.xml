@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="celphoneOptions">
+        <item>Mark</item>
+        <item>Model</item>
+        <item>Color</item>
+        <item>Memory</item>
+        <item>Cost</item>
+        <item>Company</item>
+    </string-array>
+</resources>
